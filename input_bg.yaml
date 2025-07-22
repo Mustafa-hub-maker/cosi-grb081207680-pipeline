@@ -1,0 +1,14 @@
+#----------#
+# Data I/O:
+
+data_file: "/data01/grb/Total_BG_with_SAAcomponent_3months_unbinned_data_filtered_with_SAAcut.fits"
+ori_file: "NA"
+unbinned_output: 'fits'  # <- FIXED: this tells cosipy to read from FITS format
+time_bins: 1
+energy_bins: [100., 158.489, 251.189, 398.107, 630.957, 1000., 1584.89, 2511.89, 3981.07, 6309.57, 10000.]
+phi_pix_size: 6
+nside: 8
+scheme: 'ring'
+tmin: 1836496300.0
+tmax: 1836496388.9730453
+#----------#
